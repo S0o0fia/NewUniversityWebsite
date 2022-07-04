@@ -1,0 +1,106 @@
+
+<div class="page-wraper">
+
+  <!-- header -->
+  <app-students-affairs-header></app-students-affairs-header>
+  <!-- header END -->
+  <!-- Content -->
+  <div class="page-content bg-white">
+      <!-- inner page banner -->
+      <app-banner3 [data] = "banner"></app-banner3>
+      <!-- inner page banner END -->
+      <!-- contact area -->
+      <div class="content-area">
+          <div class="container max-w900">
+
+              <div class="row">
+
+        <ng-template [ngIf]="layout.sidebar">
+          <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='left'">
+            <aside class="side-bar sticky-top">
+              <app-search-form3></app-search-form3>
+              <app-recent-posts1></app-recent-posts1>
+              <app-our-gallery1></app-our-gallery1>
+              <app-category-list1></app-category-list1>
+              <app-tag-list1></app-tag-list1>
+            </aside>
+          </div>
+        </ng-template>
+
+                  <!-- left part start -->
+      <div class="" [ngClass]="{'col-xl-9 col-lg-8 col-md-12 m-b30': layout.sidebar === true, 'col-xl-12 col-lg-12': layout.sidebar === false}">
+                      <!-- blog start -->
+        <div class="blog-post blog-single">
+          <div class="dlab-info">
+            <div class="dlab-media">
+              <!-- <a href="javascript:void(0);"><img src="{{baseUrl + president.presidentImage}}" alt="Luxor University President Image" class="img" ></a> -->
+            </div>
+            <br/>
+            <h5 class="dlab-title text-center">بسم الله الرحمن الرحيم</h5>
+
+            <div class="dlab-post-text text text-right">
+              <p>
+                جامعة الأقصر هى جامعة حكومية مصرية فى محافظة الأقصر تم أنفصالها من جامعة جنوب الوادى  وكانت تسمى فى السابق جامعة جنوب الوادى فرع الأقصر.
+ تم استقلالها بالقرار الجمهورى رقم(1481) لسنة 2019م بأسمها الحالى جامعة الأقصر .
+ تضم جامعة الأقصر عدد (6) كليات وهى
+
+              </p>
+              <ul style="list-style-type: none !important; justify-content: right;">
+                <li>كلية الفنون الجميلة  </li>
+                <li>كلية السياحة والفنادق  </li>
+                <li>كلية الحاسبات والمعلومات </li>
+                <li>كلية الألسن </li>
+                <li>كلية الآثار</li>
+                <li>كلية الطب البشرى </li>
+
+               </ul>
+               <p>
+                تعتبر جامعة الأقصر من الجامعات الناشئة عريقة و تكتسب عراقتها من المحافظة التى أنشأت فيها .
+                 مما يلقى  على عاتق القائمين عليها اعباء كثيرة و اضافية و يتطلب منا المزيد من الجهد و السعي نحو البناء و الطموح املا في مواكبة النهضة العلمية و التعليمية و التكنولوجية في مصر و العالم و التي من خلالها يتم تطوير مجتمعنا
+                </p>
+                <br>
+                <p>و نسعى و نطمح جميعا منذ اعلانها جامعة مستقلة ان تكون جامعتنا ليست مجرد جامعة ناشئة او حديثة عهد يدرس بها الطلاب بل ان تكون جامعة الاقصر باسمها و القائمين عليها و تاريخها و مكانتها و حضارتها العريقة التي تبهر العالم بجمالها من اكبر الجامعات في الوطن العربي و العالم باذن الله . و نسعى لتخريج طلاب متميزين علميا و ثقافيا يكونوا سفراء لجامعتنا و بلدنا الحبيبة .
+                  ـــــ و في النهايية اتقدم بارق الامنيات لكل من ساهم و ساعد  و لجميع القائمين على خدمة جامعتنا و رعايتها و اتمنى المزيد من التقدم و التوفيق
+                  </p>
+                  <br>
+                  <h6>حفظ الله مصرنا الحبيبة و قائدها و جيشها و شعبها من كل سوء </h6>
+              <br>
+              <br>
+              <p>،،،والله ولى التوفيق</p>
+            </div>
+            <div class="post-footer">
+              <div class="dlab-meta">
+                <h6 class="title">الأستاذ  / جمال حسن بغدادى </h6>
+                <h6>مدير/الادارة العامة لشئون التعليم والطلاب</h6>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Side bar start -->
+      <ng-template [ngIf]="layout.sidebar">
+        <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='right'">
+          <aside class="side-bar sticky-top">
+            <app-search-form3></app-search-form3>
+            <app-recent-posts1></app-recent-posts1>
+            <app-our-gallery1></app-our-gallery1>
+            <app-category-list1></app-category-list1>
+            <app-tag-list1></app-tag-list1>
+          </aside>
+        </div>
+      </ng-template>
+          </div>
+      </div>
+  </div>
+  <!-- Content END-->
+<!-- Footer -->
+ <!-- Newsletter -->
+
+ <!-- Footer -->
+  <app-footer13></app-footer13>
+  <!-- Footer END-->
+  <button class="scroltop fa fa-chevron-up" ></button>
+</div>

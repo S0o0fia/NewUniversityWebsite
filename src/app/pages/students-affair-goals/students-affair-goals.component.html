@@ -1,0 +1,82 @@
+
+<div class="page-wraper">
+
+  <!-- header -->
+  <app-students-affairs-header></app-students-affairs-header>
+  <!-- header END -->
+  <!-- Content -->
+  <div class="page-content bg-white">
+    <!-- inner page banner -->
+    <app-banner3 [data] = "banner"></app-banner3>
+    <!-- inner page banner END -->
+    <!-- contact area -->
+    <div class="content-area">
+        <div class="container max-w900">
+
+            <div class="row">
+
+      <ng-template [ngIf]="layout.sidebar">
+        <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='left'">
+          <aside class="side-bar sticky-top">
+            <app-search-form3></app-search-form3>
+            <app-recent-posts1></app-recent-posts1>
+            <app-our-gallery1></app-our-gallery1>
+            <app-category-list1></app-category-list1>
+            <app-tag-list1></app-tag-list1>
+          </aside>
+        </div>
+      </ng-template>
+      <div class="section-full bg-white content-inner kinder-about text-right" style="background-image:url(assets/images/background/kindergarten/line.png); background-size:contain;background-repeat: no-repeat;background-position: center;" dir="rtl">
+        <div class="container">
+      <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12 col-12 wow fadeIn  text-right" data-wow-delay="0.2s"  data-wow-duration="2s">
+      <div class="section-head kinder-head  text-right">
+        <h2 class="head-title text-primary">أهداف القطاع</h2>
+         <ul style="font-size:larger;">
+           <li>الأرتقاء بمستوى الأداء بالأدارات و تقديم الخدمة للطلاب بأسلوب سهل و بسيط </li>
+            <li>التعاون و التنسيق بين الأدارات الفرعية فى إطار العمل </li>
+            <li>تقديم التطورات التقدمية و الأتجاهات الحديثة فى مجال العمل و الأستفاده منها</li>
+            <li>الأستغلال الأمثل للأمكانيات المتاحة سواء كانت إمكانيات بشرية أو مادية </li>
+            <li>مناقشة خطوات العمل و مشكلاته ووضع الحلول الملائمة لانسياب العمل </li>
+            <li>دراسة الرؤية المستقبلية الشاملة لجميع مقررات العمل و طرح جميع التوقعات و الأحتمالات و التعامل معها بمنظور عملى و علمى فى ضوء الواقع و بهدف تعديل الواقع لما هو أفضل </li>
+            <li>إتخاذ القررات و حسن التوجيه و التنظيم و التعامل مع المرؤوسين بأسلوب يخلق روح التجاوب و الأحترام</li>
+            <li>أقامة جو مناسب من العلاقات الأنسانية لتحقيق أهداف الأدارة العامة</li>
+            <li>رفع كفاءة و تنمية المهارات لتحقيق التكامل و حسن الأداء </li>
+            <li>عمل قاعدة بيانات لأعمال الأدارة العامة و الأدارات التابعه لها لسرعة عمل التقارير التى قد تطلبها الجهات العليا</li>
+            <li>الرقابة الفعاله و حل المشكلات و تصحيح الأخطاء </li>
+          </ul>
+      </div>
+      </div>
+
+      </div>
+      </div>
+      </div>
+
+    </div>
+
+
+     <!-- Side bar start -->
+    <ng-template [ngIf]="layout.sidebar">
+      <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='right'">
+        <aside class="side-bar sticky-top">
+          <app-search-form3></app-search-form3>
+          <app-recent-posts1></app-recent-posts1>
+          <app-our-gallery1></app-our-gallery1>
+          <app-category-list1></app-category-list1>
+          <app-tag-list1></app-tag-list1>
+        </aside>
+      </div>
+    </ng-template>
+        </div>
+    </div>
+</div>
+<!-- Content END-->
+  <!-- Footer -->
+ <!-- Newsletter -->
+
+ <!-- Footer -->
+  <app-footer13></app-footer13>
+  <!-- Footer END-->
+  <!-- scroll top button -->
+  <button class="scroltop fa fa-chevron-up" ></button>
+</div>

@@ -1,0 +1,96 @@
+
+<div class="page-wraper">
+
+  <!-- header -->
+  <app-students-affairs-header></app-students-affairs-header>
+  <!-- header END -->
+  <!-- Content -->
+  <div class="page-content bg-white">
+    <!-- inner page banner -->
+    <app-banner3 [data] = "banner"></app-banner3>
+    <!-- inner page banner END -->
+    <!-- contact area -->
+    <div class="content-area">
+        <div class="container max-w900">
+
+            <div class="row">
+
+      <ng-template [ngIf]="layout.sidebar">
+        <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='left'">
+          <aside class="side-bar sticky-top">
+            <app-search-form3></app-search-form3>
+            <app-recent-posts1></app-recent-posts1>
+            <app-our-gallery1></app-our-gallery1>
+            <app-category-list1></app-category-list1>
+            <app-tag-list1></app-tag-list1>
+          </aside>
+        </div>
+      </ng-template>
+      <div class="section-full bg-white content-inner kinder-about text-right" style="background-image:url(assets/images/background/kindergarten/line.png); background-size:contain;background-repeat: no-repeat;background-position: center;" dir="rtl">
+        <div class="container">
+      <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12 col-12 wow fadeIn  text-right" data-wow-delay="0.2s"  data-wow-duration="2s">
+      <div class="section-head kinder-head  text-right">
+        <h2 class="head-title text-primary">مهام القطاع</h2>
+        <ul style="font-size: larger;">
+          <li>تجهيز الأعداد المقترح قبولها بكليات الجامعة للعام الجامعى الجديد و عرضها على مجلس شئون التعليم و الطلاب وإعتمادها من مجلس الجامعة وإخطار المجلس الأعلى للجامعات</li>
+          <li>الإعداد و التجهيز لأعمال إختبارات القدرات للكليات المنصوص عليها من قبل المجلس الأعلى للجامعات</li>
+         <li>الإعداد لأعمال مكتب التنيسق للقبول بالجامعات و المعاهد ومتابعة أعمالها بدأ من أعمال التنسيق الألكترونى بمعامل الجامعة المعتمدة حتى ورود كشوف أسماء المقبولين بكليات الجامعة من مكتب التنيسق للقبول بالجامعات و المعاهد و توزيعها على الكليات </li>
+         <li>متابعة إجراءات قيد الطلاب  المرشحين بكليات الجامعة من قبل مكتب التنيسق من حيث الأتى
+           <ol style="padding-right: 5%;">
+             <li>إستلام الملفات و مراجعتها</li>
+             <li>إجراءات الكشف الطبى </li>
+             <li>الأختبارات الشخصية </li>
+             <li>التسجيل و سداد الرسوم الدراسية و إستخراج البطاقة الجامعية </li>
+             <li>أعمال التشعيب و توزيع بين الأقسام </li>
+           </ol>
+         </li>
+         <li>المشاركة فى القيام بأعمال التخطيط ورسم السياسات الخاصة بقطاع شئون التعليم فى حدود القواعد و النظم التى تحقق الهدف منها و الرقابة على كافة الأعمال الخاصه بهذا الشأن </li>
+         <li>مراجعة الخرائط الزمنية الخاص بالعملية التعليمية لكليات الجامعة طبقاً للخريطة الزمنية الواردة من المجلس الأعلى للجامعات و عرضها على مجلس شئون التعليم و الطلاب وإعتمادها من مجلس الجامعة و إخطار كليات الجامعة بها لتنفيذ القرار </li>
+         <li>متابعة تنفيذ قررات المجلس الأعلى للجامعات و مجلس الجامعة و مجلس شئون التعليم و الطلاب فى كل ما يخص العملية التعليمية و ما يستجد </li>
+         <li>الأشراف على تطبيق النظم و القواعد المقرره للدراسة و الأمتحانات بمراحل (الليسانس و البكالوريوس) و تقديم الدعم الفنى للكليات بغرض تطويرها ورفع كفائتها </li>
+         <li>الرد على المكاتبات الوارده من داخل و خارج الجامعة</li>
+         <li>إعداد المذكرات الخاصه بأعتماد جداول المحاضرات و جداول الأمتحانات الخاصه بكل فصل دراسى على حدا و عرضها على مجلس  شئون التعليم و الطلاب وإعتمادها من مجلس الجامعة و إخطار كليات الجامعة بها لتنفيذ القرار </li>
+        <li>متابعة سير تجهيز و أداء أعمال الأمتحانات من إعتماد أرقام الجلوس و تجهيز القوائم و إعلانها للطلاب   و تعريفهم بأماكن اللجان الخاصه بهم ورفع كشوف الغياب يومياً و تجهيز تقرير و رفعه للمجلس الأعلى للجامعات يومياً عقب نهاية كل إمتحان </li>
+        <li>متابعة أعمال شئون تعليم الطلاب المختلفه فى كليات الجامعة و تزويد المسئولين بالبيانات و المعلومات المطلوبة تمهيداً لإتخاذ القرار المناسب ـــــ مراجعة نتائج الفرق النهائية (الخريجين) لجميع كليات الجامعة لمنح درجة (الليسانس و البكالوريوس)و إعتمادها من مجلس الجامعة</li>
+        <li>متابعة مراجعة نتائج سنوات النقل بكليات الجامعة </li>
+        <li>متابعة حصر البيانات الأحصائية بأعداد الطلاب المستجدين و المقيدين بكليات الجامعة </li>
+        <li>إعتماد وقف قيد الطلاب و الأعذار الوارده من كليات الجامعة عن أداء الأمتحانات وإعتماده من المجاالس المختصه </li>
+        <li> التنسيق مع إدارة التربية العسكرية بالجامعة بشأن عقد دورات تدريبية لطلاب الجامعة فى مجال التربية العسكرية فى فترة نصف العام الدراسى و أخره </li>
+         <li>إستلام و مراجعة ملفات الطلاب الوافدين و الشهادات المعادلة من الدول العربية و الأجنبية لكليات الجامعة و متابعتهم من ناحية سداد الرسوم الدراسية الخاص بهم و إتخاذ إجراءا قيدهم </li>
+      </ul>
+      </div>
+      </div>
+
+      </div>
+      </div>
+      </div>
+
+    </div>
+
+
+     <!-- Side bar start -->
+    <ng-template [ngIf]="layout.sidebar">
+      <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='right'">
+        <aside class="side-bar sticky-top">
+          <app-search-form3></app-search-form3>
+          <app-recent-posts1></app-recent-posts1>
+          <app-our-gallery1></app-our-gallery1>
+          <app-category-list1></app-category-list1>
+          <app-tag-list1></app-tag-list1>
+        </aside>
+      </div>
+    </ng-template>
+        </div>
+    </div>
+</div>
+<!-- Content END-->
+  <!-- Footer -->
+ <!-- Newsletter -->
+
+ <!-- Footer -->
+  <app-footer13></app-footer13>
+  <!-- Footer END-->
+  <!-- scroll top button -->
+  <button class="scroltop fa fa-chevron-up" ></button>
+</div>

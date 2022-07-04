@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+.tp-caption
+{
+  font-family: 'Changa', sans-serif !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #luxroLogo
+    {
+       display: none;
+    }
+
+}
+
+
