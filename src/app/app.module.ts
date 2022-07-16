@@ -247,6 +247,13 @@ import { ConfrenceSliderComponent } from './elements/rev-slider/confrence-slider
 import { ConfrenceCounterComponent } from './elements/counter/confrence-counter/confrence-counter/confrence-counter.component';
 import { LocalConfrenceComponent } from './pages/local-confrence/local-confrence/local-confrence.component';
 import { HeaderLightConfrenceComponent } from './elements/header/header-light-confrence/header-light-confrence/header-light-confrence.component';
+import { MeasurementandAssmentsCenterComponent } from './components/universityCentersUnits/measurementand-assments-center/measurementand-assments-center.component';
+import { AppMacHeaderComponent } from './elements/header/app-mac-header/app-mac-header.component';
+import { MacSliderComponent } from './elements/rev-slider/mac-slider/mac-slider.component';
+import { MacContentComponent } from './elements/content-box/mac-content/mac-content.component';
+import { MacCounterComponent } from './elements/counter/mac-counter/mac-counter.component';
+import { MacInftoComponent } from './pages/meauremrntAssementCenter/mac-infto/mac-infto.component';
+import { MacGoalsComponent } from './pages/meauremrntAssementCenter/mac-goals/mac-goals.component';
 
 @NgModule({
   declarations: [
@@ -489,7 +496,14 @@ import { HeaderLightConfrenceComponent } from './elements/header/header-light-co
     InternationalConfrenceComponent,
     LocalConfrenceComponent,
     AbstractComponent,
-    HeaderLightConfrenceComponent
+    HeaderLightConfrenceComponent,
+    MeasurementandAssmentsCenterComponent,
+    AppMacHeaderComponent,
+    MacSliderComponent,
+    MacContentComponent,
+    MacCounterComponent,
+    MacInftoComponent,
+    MacGoalsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,6 @@
+import { MacGoalsComponent } from './pages/meauremrntAssementCenter/mac-goals/mac-goals.component';
+import { MacInftoComponent } from './pages/meauremrntAssementCenter/mac-infto/mac-infto.component';
+import { MeasurementandAssmentsCenterComponent } from './components/universityCentersUnits/measurementand-assments-center/measurementand-assments-center.component';
 import { AbstractComponent } from './pages/abstract/abstract/abstract.component';
 import { AlsunCodesComponent } from './components/StudentResult/alsun-codes/alsun-codes.component';
 import { ToursimCodesComponent } from './components/StudentResult/toursim-codes/toursim-codes.component';
@@ -245,6 +248,9 @@ const routes: Routes = [
   {path : 'fineart-code' , component:FineartCodesComponent},
   {path: 'toursim-code' , component:ToursimCodesComponent},
   {path : 'alsun-codes' , component:AlsunCodesComponent },
+  {path : 'mac' , component:MeasurementandAssmentsCenterComponent },
+  {path : 'mac-intro' , component:MacInftoComponent},
+  {path : 'mac-goals' , component:MacGoalsComponent},
   {path: '**', component: Error404Component},
 ];
 
