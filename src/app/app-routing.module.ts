@@ -1,3 +1,9 @@
+import { MacProjectTimelineComponent } from './pages/meauremrntAssementCenter/mac-project-timeline/mac-project-timeline.component';
+import { MacProjectPlanComponent } from './pages/meauremrntAssementCenter/mac-project-plan/mac-project-plan.component';
+import { MacProjectGoalsComponent } from './pages/meauremrntAssementCenter/mac-project-goals/mac-project-goals.component';
+import { MacProjectFinanceComponent } from './pages/meauremrntAssementCenter/mac-project-finance/mac-project-finance.component';
+import { MacProjectTeamMembersComponent } from './pages/meauremrntAssementCenter/mac-project-team-members/mac-project-team-members.component';
+import { MacPorjectInfoComponent } from './pages/meauremrntAssementCenter/mac-porject-info/mac-porject-info.component';
 import { MacGoalsComponent } from './pages/meauremrntAssementCenter/mac-goals/mac-goals.component';
 import { MacInftoComponent } from './pages/meauremrntAssementCenter/mac-infto/mac-infto.component';
 import { MeasurementandAssmentsCenterComponent } from './components/universityCentersUnits/measurementand-assments-center/measurementand-assments-center.component';
@@ -251,6 +257,12 @@ const routes: Routes = [
   {path : 'mac' , component:MeasurementandAssmentsCenterComponent },
   {path : 'mac-intro' , component:MacInftoComponent},
   {path : 'mac-goals' , component:MacGoalsComponent},
+  {path : 'mac-project-goal' , component:MacPorjectInfoComponent},
+  {path : 'mac-project-members' , component:MacProjectTeamMembersComponent},
+  {path : 'mac-project-finance' , component:MacProjectFinanceComponent},
+  {path : 'mac-project-goals' , component:MacProjectGoalsComponent},
+  {path : 'mac-project-plan' , component:MacProjectPlanComponent},
+  {path : 'mac-project-timeline' , component:MacProjectTimelineComponent},
   {path: '**', component: Error404Component},
 ];
 

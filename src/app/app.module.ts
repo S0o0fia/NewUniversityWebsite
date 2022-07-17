@@ -254,6 +254,13 @@ import { MacContentComponent } from './elements/content-box/mac-content/mac-cont
 import { MacCounterComponent } from './elements/counter/mac-counter/mac-counter.component';
 import { MacInftoComponent } from './pages/meauremrntAssementCenter/mac-infto/mac-infto.component';
 import { MacGoalsComponent } from './pages/meauremrntAssementCenter/mac-goals/mac-goals.component';
+import { MacPorjectInfoComponent } from './pages/meauremrntAssementCenter/mac-porject-info/mac-porject-info.component';
+import { MacProjectTeamMembersComponent } from './pages/meauremrntAssementCenter/mac-project-team-members/mac-project-team-members.component';
+import { MacProjectFinanceComponent } from './pages/meauremrntAssementCenter/mac-project-finance/mac-project-finance.component';
+import { MacProjectGoalsComponent } from './pages/meauremrntAssementCenter/mac-project-goals/mac-project-goals.component';
+import { MacProjectPlanComponent } from './pages/meauremrntAssementCenter/mac-project-plan/mac-project-plan.component';
+import { NgImageSliderModule } from 'ng-image-slider';
+import { MacProjectTimelineComponent } from './pages/meauremrntAssementCenter/mac-project-timeline/mac-project-timeline.component';
 
 @NgModule({
   declarations: [
@@ -503,7 +510,13 @@ import { MacGoalsComponent } from './pages/meauremrntAssementCenter/mac-goals/ma
     MacContentComponent,
     MacCounterComponent,
     MacInftoComponent,
-    MacGoalsComponent
+    MacGoalsComponent,
+    MacPorjectInfoComponent,
+    MacProjectTeamMembersComponent,
+    MacProjectFinanceComponent,
+    MacProjectGoalsComponent,
+    MacProjectPlanComponent,
+    MacProjectTimelineComponent
   ],
   imports: [
     BrowserModule,
@@ -513,6 +526,7 @@ import { MacGoalsComponent } from './pages/meauremrntAssementCenter/mac-goals/ma
 	ReactiveFormsModule,
 	HttpClientModule,
     NgbModule ,
+   
 
   ],
   providers: [DatePipe],

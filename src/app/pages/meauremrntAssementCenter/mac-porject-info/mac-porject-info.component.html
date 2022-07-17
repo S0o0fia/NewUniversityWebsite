@@ -1,0 +1,75 @@
+
+<div class="page-wraper">
+
+  <!-- header -->
+  <app-app-mac-header></app-app-mac-header>
+  <!-- header END -->
+  <!-- Content -->
+  <div class="page-content bg-white">
+    <!-- inner page banner -->
+    <app-banner3 [data] = "banner"></app-banner3>
+    <!-- inner page banner END -->
+    <!-- contact area -->
+    <div class="content-area">
+        <div class="container max-w900">
+
+            <div class="row">
+
+      <ng-template [ngIf]="layout.sidebar">
+        <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='left'">
+          <aside class="side-bar sticky-top">
+            <app-search-form3></app-search-form3>
+            <app-recent-posts1></app-recent-posts1>
+            <app-our-gallery1></app-our-gallery1>
+            <app-category-list1></app-category-list1>
+            <app-tag-list1></app-tag-list1>
+          </aside>
+        </div>
+      </ng-template>
+      <div class="section-full bg-white content-inner kinder-about text-right" style="background-image:url(assets/images/background/kindergarten/line.png); background-size:contain;background-repeat: no-repeat;background-position: center;" dir="rtl">
+        <div class="container">
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 wow fadeIn  text-right" data-wow-delay="0.2s"  data-wow-duration="2s">
+      <div class="section-head kinder-head  text-right">
+        <h2 class="head-title text-primary">الهدف من المشروع </h2>
+        <p>
+          يهدف المشروع إلى تطوير نظم تقويم الطلاب والامتحانات للطلاب، بالإضافة إلى تطبيق منظومة شاملة ومتكاملة لقياس وتقويم نواتج التعلم المستهدفة للطلاب، وذلك للارتقاء بمستوى الخريج ولتحقيق التمييز محليا واقليما وعالميا.
+        </p>
+        <br/>
+        <p>
+          ويشمل نطاق المشروع الحالي إنشاء مركز بالجامعة لإدارة ومتابعة عملية تقويم الطلاب والامتحانات يشتمل على 7 وحدات متخصصة (وحدة بنوك الاسئلة وحدة التدريب وتكنولوجيا المعلومات، وحدة الإعلان والنشر، وحدة إحصاء، وحدة المتابعة والدعم الفني، وحدة التصحيح الالكتروني، وحدة الاستبيانات)، بالإضافة إلى وحدات للقياس والتقويم بالكليات المشاركة في المشروع. ويتم من خلال المركز والوحدات تدريب أعضاء هيئة التدريس والجهاز الفني والإداري على التقويم، وإعداد برامج تدريبية متخصصة وبرامج توعية للمعنيين بالمشروع، وإعداد أدلة للتقويم الشامل وفق معايير التخرج وأدلة للتقويم الالكتروني، وإعداد عقود ملزمة لأعضاء هيئة التدريس محكمة مالياً وادارياً وقانونياً وتربوياً في الكليات المشاركة في المشروع لمتابعة تنفيذ المشروع واعداد بنوك الاسئلة
+        </p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+    </div>
+
+
+     <!-- Side bar start -->
+    <ng-template [ngIf]="layout.sidebar">
+      <div class="col-xl-3 col-lg-4 col-md-12" *ngIf="layout.sidebarPosition=='right'">
+        <aside class="side-bar sticky-top">
+          <app-search-form3></app-search-form3>
+          <app-recent-posts1></app-recent-posts1>
+          <app-our-gallery1></app-our-gallery1>
+          <app-category-list1></app-category-list1>
+          <app-tag-list1></app-tag-list1>
+        </aside>
+      </div>
+    </ng-template>
+        </div>
+    </div>
+</div>
+<!-- Content END-->
+  <!-- Footer -->
+ <!-- Newsletter -->
+
+ <!-- Footer -->
+  <app-footer13></app-footer13>
+  <!-- Footer END-->
+  <!-- scroll top button -->
+  <button class="scroltop fa fa-chevron-up" ></button>
+</div>
