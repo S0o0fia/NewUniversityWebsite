@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CalenderCenterComponent implements OnInit {
 
   banner : any = {
-		pagetitle: "مركز التقويم والقياس",
+		pagetitle: "مركز القياس والتقويم",
 		bg_image: "assets/images/banner/unibnr.jpg",
 		title : "مركز التقويم والقياس",
 

@@ -3,3 +3,23 @@
   color: wheat;
   font-size: medium;
 }
+
+
+.dlab-position
+{
+   color:#07294D;
+   font-weight: bold;
+   font-size: large;
+}
+
+
+.dlab-position:hover
+{
+  color: white;
+
+}
+
+.dlab-info:hover
+{
+  background-color:#09325B !important ;
+}

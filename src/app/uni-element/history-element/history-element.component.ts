@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistoryElementComponent implements OnInit {
 
-    public baseUrl1:string = 'http://luxor.edu.eg:8098/StaticFiles/UniversityResources/Images/UniversityPresident/President.jpg';
+    public baseUrl1:string = 'assets/images/about/pres.jpg';
    public baseUrl2:string = 'http://luxor.edu.eg:8098/StaticFiles/UniversityResources/Images/UniversityPresident/oldPresident.jpg';
 
    constructor() { }
